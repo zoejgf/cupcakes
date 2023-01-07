@@ -1,3 +1,11 @@
+<!--
+Name: Zoe Fortin
+Date: 01/06/2023
+URL: https://zfortin.greenriverdev.com/328/cupcakes/
+Program Description: index.php consists of a cupcake fundraiser form that
+collects a name and checked boxes of flavors in the form. The order button
+submits to the process.php page.
+-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,13 +25,13 @@
         <p>
             Cupcake Flavors:<br>
             <br>
-            <label><input type="checkbox" name="flavor[]" value="the grasshopper">The Grasshopper</label><br>
-            <label><input type="checkbox" name="flavor[]" value="whiskey maple bacon">Whiskey Maple Bacon</label><br>
-            <label><input type="checkbox" name="flavor[]" value="carrot walnut">Carrot Walnut</label><br>
-            <label><input type="checkbox" name="flavor[]" value="salted caramel">Salted Caramel Cupcake</label><br>
-            <label><input type="checkbox" name="flavor[]" value="red velvet">Red Velvet</label><br>
-            <label><input type="checkbox" name="flavor[]" value="lemon drop">Lemon Drop</label><br>
-            <label><input type="checkbox" name="flavor[]" value="tiramisu">Tiramisu</label><br>
+            <label><input type="checkbox" name="flavor[]" value="The Grasshopper">The Grasshopper</label><br>
+            <label><input type="checkbox" name="flavor[]" value="Whiskey Maple Bacon">Whiskey Maple Bacon</label><br>
+            <label><input type="checkbox" name="flavor[]" value="Carrot Walnut">Carrot Walnut</label><br>
+            <label><input type="checkbox" name="flavor[]" value="Salted Caramel Cupcake">Salted Caramel Cupcake</label><br>
+            <label><input type="checkbox" name="flavor[]" value="Red Velvet">Red Velvet</label><br>
+            <label><input type="checkbox" name="flavor[]" value="Lemon Drop">Lemon Drop</label><br>
+            <label><input type="checkbox" name="flavor[]" value="Tiramisu">Tiramisu</label><br>
         </p>
         <br>
         <input type="submit" value="Order">
